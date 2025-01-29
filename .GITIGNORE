@@ -1,0 +1,43 @@
+# Ignore SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore backup files
+*.bak
+*.trn
+*.diff
+
+# Ignore temporary files
+*.tmp
+*.log
+*.cache
+
+# Ignore SQL Server Management Studio (SSMS) files
+*.sqlproj.user
+*.dbmdl
+*.suo
+*.user
+*.vspscc
+*.vssscc
+
+# Ignore generated scripts and reports
+*.rpt
+*.dxconfig
+*.publish.xml
+
+# Ignore local development settings
+.env
+secrets.json
+
+# Ignore Visual Studio and build artifacts
+.vscode/
+.vs/
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore migration and schema snapshots (optional)
+Migrations/
+SchemaSnapshot/
